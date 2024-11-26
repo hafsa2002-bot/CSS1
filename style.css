@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "roboto";
+}
+body{
+    margin:0;
+    padding: 0;
+}
+
+.resto_name{
+    display:inline;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color:rgb(128, 0, 32);
+    padding: 0 200px 0 20px;
+}
+
+nav{
+    padding: 10px 0px;
+    background-color: rgb(245, 245, 220);
+    width:100%;
+    margin-top: 0;  /*******/
+}
+.btn_style{
+    height:30px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.search_btn{
+    margin-right: 340px;
+}
+/*
+.signUp{
+    margin-right:200px;
+}
+    */
+.search{
+    margin-top:12px;
+    height:30px;
+    width: 250px;
+    border:1px solid black;
+    border-radius: 4px;
+}
+.Menu{
+    list-style-type: none;
+    padding:18px 0 ;
+    margin:0 0 12px 0;
+    width: 100%; 
+    background-color: rgba(231, 231, 204, 0.849);
+    
+}
+.login, .signUp{
+    border:none;
+    background-color:rgb(135, 231, 135) ;
+}
+.login:hover, .signUp:hover{
+    background-color:white;
+    border:none;
+    border-radius: 8px;
+
+}
+.logSign{
+    margin-right:20px;
+}
+a{
+    text-decoration-line: none;
+}
+.section_header{
+    font-family:"Parkinsans";
+    font-size: 40px;
+    text-align: center;
+    color:rgb(128, 0, 32);
+}
+.menu_element{
+    /*border:1px solid rgba(153, 153, 119, 0.849);*/
+    padding: 0 0 30px 0;
+    margin:12px 15px 2px 15px;
+    border-radius:8px;
+    /*width: 100%;*/
+    display:inline-block;
+}
+.imag_menu{
+    width:220px;
+    height:220px;
+    border:3px solid rgb(128, 0, 32);
+    border-radius:150px;
+    margin-bottom:10px;
+}
+.menu_link, .more{
+    display:block;
+    text-align: center;
+}
+.menu_link{
+    color: rgb(128, 0, 32);/*rgba(87, 87, 57, 0.945);*/
+}
+.menu_link:visited{
+    color:rgb(92, 189, 92);
+}
+.more, .meal_btn{
+    display:block;
+    background-color: rgb(128, 0, 32); /*rgb(135, 231, 135)*/ 
+    border:none;
+    height:30px;
+    color:#e7e9ec;
+}
+.more{
+    margin:5px auto;
+    border-radius:17px;
+}
+.meal_btn{
+    margin:auto;
+    border-radius:6px;
+    width:220px;
+    font-size:20px;
+}
+.meal_btn:hover{
+    background-color:rgb(135, 231, 135) ;
+    color:rgb(128, 0, 32) ;
+    border-radius:4px;
+}
+.group_meals{
+    list-style: none;
+    margin-bottom:90px;
+}
+
+.items{
+    display:inline-block;
+     /*background-color: blueviolet;*/
+    /*padding:0 2px 20px 2px;*/
+    margin: auto 60px;
+    width:280px;
+    height:400px;
+}
+.item_image{
+    height: 250px;
+    width:250px;
+    margin:9px;
+    border-radius:6px;
+    border:3px solid rgb(128, 0, 32);
+}
+.meal_title_desc{
+    display:block;
+    text-align: center;
+    width:250px;
+    height:120px;
+    margin:auto;
+}
+.meal_title{
+    font-family: "Parkinsans", serif;
+    
+}
+footer{
+    background-color: #f0f2f5;
+    /*padding:20px;*/
+}
+.card_image{
+    width:100px;
+    height:100px;
+}
+
+.part_footer{
+    /*background-color: pink;*/
+    display:block;
+    /*padding: 12px;*/
+}
+.card_image{
+    display:block;
+}
+.footer_list{
+    list-style-type: none;
+    /*background-color: blue;*/
+    display:inline-block;
+    margin: auto 15px;
+    padding-top:20px;
+    text-align: center;
+    width:15em;
+    height:8em;
+}
+.footer_content{
+    /*width:250px;
+    height:100px;*/
+    /*background-color: bisque;*/
+    padding-top:9px;
+    
+}
+.newsletter, .newsletter_btn{
+    display:inline;
+}
+.copyright{
+    background-color: rgb(128, 0, 32);
+    color:white;
+    text-align: center;
+    padding: 12px;
+}
