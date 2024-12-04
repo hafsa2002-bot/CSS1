@@ -158,9 +158,8 @@ footer{
     display:block;
 }
 .footer_list{
-    list-style-type: none;
     display:inline-block;
-    margin: auto 15px;
+    margin: auto 35px;
     padding-top:20px;
     text-align: center;
     width:15em;
@@ -168,7 +167,11 @@ footer{
 }
 .footer_content{
     padding-top:9px;
-    
+    list-style-type: none;
+}
+.float_element{
+    float:left;
+
 }
 .newsletter, .newsletter_btn{
     display:inline;
